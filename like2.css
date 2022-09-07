@@ -1,0 +1,68 @@
+.head{
+    width: 650px;
+    background-color: black;
+    color: white;
+    height:40px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    left: 200px;
+}
+.sidepanel{
+
+    position: absolute;
+    width: 130px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: black solid;
+    align-items: center;
+    left: 200px;
+    top: 120px;
+}
+.sidepanel2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: absolute;
+    left: 180px;
+    top: -10px;
+}
+.text1{
+    height:100px;
+    width: 450px;
+    border: black solid;
+    margin: 10px;
+}
+.text2{
+    height:100px;
+    width: 450px;
+    border: black solid;
+    margin: 10px;
+}
+.text3{
+    height:100px;
+    width: 450px;
+    border: black solid;
+    margin: 10px;
+}
+h1{
+    font-size: 25px;
+}
+h2{
+    position: relative;
+    bottom: 10px;
+}
+h4{
+    position: relative;
+    bottom: 1px;
+}
+button{
+    background-color: yellow;
+    box-shadow: 4px 4px black;
+}
+button:active{
+    background-color: beige;
+    cursor: pointer;
+}

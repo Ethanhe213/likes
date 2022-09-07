@@ -1,0 +1,13 @@
+button{
+    background-color: yellow;
+    height:20px;
+    width: 100px;
+}
+body{
+    width: 300px;
+    height: 100px;
+    border: solid black;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
